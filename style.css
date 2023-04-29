@@ -5,7 +5,6 @@
 
 body{
     background-color: black;
-    margin: 0 auto;
 }
 
 header h1{
@@ -14,4 +13,26 @@ header h1{
     font-size: 50px;
     color: white;
     text-align: center;
+    margin-top: 25px;
+}
+
+/* MAIN */
+
+main{
+    margin-top: 40px;
+}
+
+.download-app{
+    display: flex;
+    justify-content: center;
+}
+
+.download-app a{
+    font-size: 16px;
+    color: aquamarine;
+}
+
+.video-app{
+    text-align: center;
+    margin: 20px auto;
 }
