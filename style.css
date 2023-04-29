@@ -1,70 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: black;
-    text-align: center;
-    color: white;
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  /* MAIN */
+  /* FOOTER */
 }
-
-header h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-size: 50px;
-    margin-top: 25px;
+body header h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  margin-top: 25px;
 }
-
-/* MAIN */
-
-main{
-    margin-top: 40px;
+body main {
+  margin-top: 40px;
 }
-
-a{
-    font-family: sans-serif;
-    font-size: 16px;
-    color: aquamarine;
+body main a {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: aquamarine;
 }
-
-.video-app{
-    margin: 20px auto;
+body main .video-app {
+  margin: 20px auto;
 }
-
-.principal{
-    margin: 40px 0px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
+body main .principal {
+  margin: 40px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }
-
-.principal h2{
-    font-family: Verdana, Tahoma, sans-serif;
-    font-weight: 300;
-    font-size: 42px;
+body main .principal h2 {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 42px;
 }
-
-.principal h5{
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 21px;
-    color: grey;
+body main .principal h5 {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 21px;
+  color: grey;
 }
-
-.camp{
-    width: 50%;
-    min-width: 400px ;
+body main .principal .camp {
+  width: 50%;
+  min-width: 400px;
 }
-
-/* FOOTER */
-
-footer{
-    color: grey;
-    font-weight: bold;
-    font-size: 21px;
-    text-align: right;
-    margin-right: 15px;
-    margin-bottom: 20px;
-}
+body footer {
+  color: grey;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
