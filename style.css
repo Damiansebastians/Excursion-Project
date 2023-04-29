@@ -23,6 +23,7 @@ main{
 }
 
 a{
+    font-family: sans-serif;
     font-size: 16px;
     color: aquamarine;
 }
