@@ -5,14 +5,14 @@
 
 body{
     background-color: black;
+    text-align: center;
+    color: white;
 }
 
 header h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
-    color: white;
-    text-align: center;
     margin-top: 25px;
 }
 
@@ -22,17 +22,48 @@ main{
     margin-top: 40px;
 }
 
-.download-app{
-    display: flex;
-    justify-content: center;
-}
-
-.download-app a{
+a{
     font-size: 16px;
     color: aquamarine;
 }
 
 .video-app{
-    text-align: center;
     margin: 20px auto;
+}
+
+.principal{
+    margin: 40px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.principal h2{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.principal h5{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 21px;
+    color: grey;
+}
+
+.camp{
+    width: 50%;
+    min-width: 400px ;
+}
+
+/* FOOTER */
+
+footer{
+    color: grey;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 20px;
 }
