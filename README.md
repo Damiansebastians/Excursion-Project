@@ -1,4 +1,5 @@
 # Excursion-Project
+Proyecto de Codecademy para la aplicación de comandos de Git y Github, implementado en HTML con SASS
 
 ## Versión Escritorio
 
